@@ -1,0 +1,7 @@
+{
+  "name": "Hott Rossi Pizzaria Delivery",
+  "description": "A high-end pizza delivery application with real-time WhatsApp integration and a full administrative dashboard for store customization.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
