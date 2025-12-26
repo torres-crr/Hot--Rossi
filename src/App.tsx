@@ -3,7 +3,7 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { StoreConfig, CartItem, Product } from './types';
 import { INITIAL_STORE_CONFIG, INITIAL_PRODUCTS } from './constants';
-import { supabase } from './src/lib/supabase';
+import { supabase } from './lib/supabase';
 import MenuScreen from './screens/MenuScreen';
 import CheckoutScreen from './screens/CheckoutScreen';
 import AdminScreen from './screens/AdminScreen';
